@@ -1,3 +1,10 @@
+This branch is the RB2-specific fork of mecha-translation-builder. Unless you
+for some reason are also going to translate RB2, you probably want either the
+master branch of this repository, or the
+[mecha-translation-builder](https://github.com/Yahweasel/mecha-translation-builder)
+repository.
+
+
 # Mecha Translation Builder
 
 This is a suite of tools for translating binaries in place, using AI (if you'd

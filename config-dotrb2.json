@@ -1,0 +1,31 @@
+{
+    "files": [
+        "Message.rb2",
+        "SceDat1.rb2",
+        "SceDat2.rb2"
+    ],
+
+    "encoding": "932",
+    "language": "Japanese",
+    "letters": {
+        "categories": ["Lo"],
+        "scripts": ["Han", "Hiragana", "Katakana"]
+    },
+    "start": ["Lo", "「", "『", "\u001b"],
+    "end": ["Lo", "」", "』", "、", "…", "。", "〜", "!", "?"],
+
+    "openai": {
+        "host": "http://localhost:8000"
+    },
+    "openaiCompletion": {
+        "seed": 1,
+        "model": "qwen3-235b-instruct",
+        "chat_template_kwargs": {"enable_thinking": false},
+        "thinking_budget_tokens": 0
+    },
+    "suffix": "If there are newlines in the original, try to put newlines in the same places in the translation. As these strings are from code, they may contain special sequences of the forms %@xx, %d, \\u001bx, \\u0001, etc.; leave these sequences intact, in the same location in the string. This game uses a lot of half-width kana, so if you find Katakana strings that would normally be Hiragana (e.g., ﾜﾀｼ), translate them as Japanese, not as loan words that happen to look like Japanese (so in this case, this is “I” or “me”).",
+
+    "abbreviate": false,
+    "useUIDs": false,
+    "spaceEnd": ["ucs2"]
+}
