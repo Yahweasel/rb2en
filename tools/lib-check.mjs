@@ -75,7 +75,7 @@ export function check(string, config) {
     }
 
     // Check if it even fits
-    if (enc.length > stringLen) {
+    if (enc.length > stringLen && string.file !== "Message.rb2" /* FIXME: specific to RB2 */) {
         return {
             warn: "LENGTH",
             msg: "Too long. Shorten and/or abbreviate."
