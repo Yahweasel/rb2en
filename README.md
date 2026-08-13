@@ -60,6 +60,11 @@ The manual and lorebook have also been scanned and translated, in
 [manual.pdf](manual/manual.pdf) and [lore.pdf](manual/lore.pdf), respectively.
 
 
+## Tools
+
+The tools used in the translation are in the `tools` branch of this repository.
+
+
 ## License
 
 The actual text of Royal Blood II is the property of Koei.
